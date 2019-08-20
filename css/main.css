@@ -3,7 +3,7 @@
     background: linear-gradient(
     rgba( 3, 126, 247, 0.45), 
     rgba( 3, 126, 247, 0.45)
-  ), url('img/theme_background.png');
+  ), url('../img/theme_background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 20%;
