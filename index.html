@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <nav class="side-bar side-bar-big animation-left">
+    <!-- <nav class="side-bar side-bar-big animation-left">
         <div class="button-border">
             <a href="" class="sidebar-item sidebar-button">About</a>
         </div>
@@ -43,7 +43,7 @@
             <a href="" class="sidebar-item sidebar-button">Blog</a>
         </div>
 
-    </nav>
+    </nav> -->
     <!-- <nav  class="nav-large-menu nav-small-menu">
         <div>
             <a routerLink="/home">About</a>
@@ -63,6 +63,7 @@
             <!-- <a routerLink="/home">About</a> -->
             <a routerLink="/resume">Resume</a>
             <a routerLink="/portfolio">Portfolio</a>
+            <a routerLink="/portfolio">Contact</a>
             <!-- <a>
                     <img class="img-social" src="../../../assets/images/facebook_logo_blue.png.png" alt="">
                   </a>
@@ -100,27 +101,66 @@
         </div>
         <div class="row hs-center">
             <div class="col-d-11 col-m-12">
-                <div class="row">
-                    <div class="col-d-3 col-m-12">
+                <div class="row expertise">
+                    <div class="col-d-3 col-m-12 right-border">
                         <img class="service-icon" src="img/app.png" alt="">
-                        <p class="service-title">Back-End Development</p>
+                        <p class="service-title">Full Stack Development</p>
                         <p class="service-description">All cycles of back end development, distributed systems and cloud
                             computing</p>
+                        <div class="tech-list">
+                            <div class="tech-title">TechStack: </div>
+                            <div class="tech-items">
+                                <div>Node.js</div>
+                                <div>Java</div>
+                                <div>JavaScript</div>
+                                <div>Angular</div>
+                                <div>React.js</div>
+                                <div>AWS</div>
+                                <div>Openshift</div>
+                                <div>Docker</div>
+                                <div>Nginx</div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-d-3 col-m-12">
+                    <div class="col-d-3 col-m-12 right-border">
                         <img class="service-icon" src="img/smartphone.png" alt="">
                         <p class="service-title">Internet Of Things</p>
                         <p class="service-description">Using edge device in industrial and end-two-end use cases.
                             Experienced with Nvidia TX2 and Intel Movidius
                         </p>
+                        <div class="tech-list">
+                            <div class="tech-title">TechStack: </div>
+                            <div class="tech-items">
+                                <div>MQTT</div>
+                                <div>Lora-Wlan</div>
+                                <div>Raspberry Pi</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-d-3 col-m-12">
+                    <div class="col-d-3 col-m-12 right-border">
                         <img class="service-icon" src="img/feature.png" alt="">
                         <p class="service-title">Computer Vision</p>
                         <p class="service-description">Utilized stereo cameras and structure light
-                            in Smart City projects and Robotics. Have experience with lidars
-                            and visual odometry.
+                            in Smart City projects and Robotics.
                         </p>
+                        <div class="tech-list">
+                            <div class="tech-title">TechStack:</div>
+                            <div class="tech-items">
+                                <div>C++</div>
+                                <div>OpenCV</div>
+                                <div>Cuda</div>
+                                <div>Python</div>
+                                <div>Stereo Cameras</div>
+                                <div>3D reconstruction</div>
+                                <div>PCL</div>
+                                <div>Eigen</div>
+                                <div>OpenGL</div>
+                            </div>
+
+
+                        </div>
+
                     </div>
                     <div class="col-d-3 col-m-12">
                         <img class="service-icon" src="img/artificial-intelligence.png" alt="">
@@ -128,12 +168,23 @@
                         <p class="service-description">Development of neural networks models,
                             fine tuning and optimization. Collection of the dataset.
                         </p>
+                        <div class="tech-list">
+                            <div class="tech-title">TechStack:</div>
+                            <div class="tech-items">
+                                <div>Tensorflow</div>
+                                <div>Keras</div>
+                                <div>Pytorch</div>
+                                <div>Movidius</div>
+                                <div>Nvidia TX2</div>
+                                <div>Data Labeling</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="home-services">
+    <!-- <section class="home-services">
         <div class="row hs-center">
             <div class="col-d-11 col-m-12">
                 <p class="hm-line-color-black-reverse"><span>OUR CLIENTS</span></p>
@@ -205,7 +256,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class=" home-services">
         <div class="row hs-center">
             <div class="col-d-11 col-m-12">
@@ -218,15 +269,13 @@
                                 <img class="fit-img" src="img/cctv_image.jpeg" alt="">
                                 <div class="overlay">
                                     <p>
-                                        <a href="#">
-                                            <p class="hov-title">Smart City Solutions</p>
-                                            <div class="hov-text">
-                                                The goal of the project wast to identify
-                                                car plates and numbers In Hong Kong. Using
-                                                edge devices Nvidia TX2 and neural network models
-                                            </div>
-                                            <div class="hm-line-color-white"><span>More</span></div>
-                                        </a>
+                                        <p class="hov-title">Smart City Solutions</p>
+                                        <div class="hov-text">
+                                            The goal of the project wast to identify
+                                            car plates and numbers In Hong Kong. Using
+                                            edge devices Nvidia TX2 and neural network models
+                                        </div>
+                                        <div class="hm-line-color-white"><span>More</span></div>
                                     </p>
                                 </div>
                             </div>
@@ -235,14 +284,12 @@
                                 <img class="fit-img" src="img/snow_makers.jpg" alt="">
                                 <div class="overlay">
                                     <p>
-                                        <a href="#">
-                                            <p class="hov-title">Snow Machine System</p>
-                                            <div class="hov-text">
-                                                Implemented backend system for control snow machines.
-                                                The tech stack used Java, MySQL, Hibernate, SPringMVC
-                                            </div>
-                                            <div class="hm-line-color-white"><span>More</span></div>
-                                        </a>
+                                        <p class="hov-title">Snow Machine System</p>
+                                        <div class="hov-text">
+                                            Implemented backend system for control snow machines.
+                                            The tech stack used Java, MySQL, Hibernate, SPringMVC
+                                        </div>
+                                        <div class="hm-line-color-white"><span>More</span></div>
                                     </p>
                                 </div>
                             </div>
@@ -254,14 +301,12 @@
                                 <img class="fit-img" src="img/accident_detection.jpg" alt="">
                                 <div class="overlay">
                                     <p>
-                                        <a href="#">
-                                            <p class="hov-title">Car Accident Detection</p>
-                                            <div class="hov-text">
-                                                The aim was to create a neural network model
-                                                to detect car accident detection
-                                            </div>
-                                            <div class="hm-line-color-white"><span>More</span></div>
-                                        </a>
+                                        <p class="hov-title">Car Accident Detection</p>
+                                        <div class="hov-text">
+                                            The aim was to create a neural network model
+                                            to detect car accident detection
+                                        </div>
+                                        <div class="hm-line-color-white"><span>More</span></div>
                                     </p>
                                 </div>
                             </div>
@@ -372,7 +417,8 @@
                                 <div class="col-d-12 col-m-12">
                                     <div class="client-description">
                                         Software Engineer in the start-up company. Developing a control system for the
-                                        snow machines in ski resort.
+                                        snow machines in ski resort. Responsible for back end architecture.
+                                        Using Java, J2EE, Hibernate, SpringMVC, Maven
                                     </div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
@@ -415,8 +461,8 @@
             <div class="col-d-4 col-m-12 ">
                 <div class="hm-line"><span>CONTACT</span></div>
                 <ul class=" contact-list">
-                    <li><a href="#">info@sealum.com</a></li>
-                    <li><a href="#">1 888 109 22 504</a></li>
+                    <li><a href="#">dmitryshendryk@gmail.com</a></li>
+                    <li><a href="#">+8618810922504</a></li>
                 </ul>
             </div>
             <div class="col-d-4  col-m-12">

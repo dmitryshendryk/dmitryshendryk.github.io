@@ -201,13 +201,19 @@
 
 .service-icon {
     padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service-title {
     font-weight: bold;
+    text-align: center;
+
 }
 
 .service-description {
+    text-align: center;
     font-weight: 100;
 }
 
@@ -307,9 +313,39 @@
   }
 
 .hov-text {
-    font-size: 0.7em;
+    font-size: 0.9em;
+    color: #FFF
 }
 
+.tech-list {
+}
+
+.tech-list div {
+    text-align: center;
+}
+
+.right-border {
+    border-right: 1px solid rgb(230, 236, 247);
+}
+
+.tech-title {
+    color: rgb(54, 109, 170);
+    padding-bottom: 10px;
+    
+}
+
+.tech-items div {
+    padding-bottom: 5px;
+}
+
+.expertise {
+    border: 1px solid rgb(230, 236, 247);
+    border-radius: 1%;
+}
+
+.expertise  + div {
+    border-right: 1px solid rgb(230, 236, 247);
+}
 
 .footer-content {
     background-color: #024c9a;
