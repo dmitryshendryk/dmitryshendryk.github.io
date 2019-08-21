@@ -46,6 +46,10 @@
       position: absolute;
   
   }
+
+  .disabled {
+    cursor: not-allowed;
+  }
   
   .nav-large-not-home  a{
     color: white;
