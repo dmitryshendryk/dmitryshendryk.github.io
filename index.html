@@ -23,33 +23,79 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
+    <nav class="side-bar side-bar-big animation-left">
+        <div class="button-border">
+            <a href="" class="sidebar-item sidebar-button">About</a>
+        </div>
+        <div class="button-border">
+            <a href="" class="sidebar-item sidebar-button">Solutions</a>
+        </div>
+        <div class="button-border">
+            <a href="" class="sidebar-item sidebar-button">Portfolio</a>
+        </div>
+        <div class="button-border">
+            <a href="" class="sidebar-item sidebar-button">Careers</a>
+        </div>
+        <div class="button-border">
+            <a href="" class="sidebar-item sidebar-button">Blog</a>
+        </div>
+
+    </nav>
+    <!-- <nav  class="nav-large-menu nav-small-menu">
+        <div>
+            <a routerLink="/home">About</a>
+            <a routerLink="/solutions">Solutions</a>
+            <a routerLink="/portfolio">Portfolio</a>
+            <a href=""> Blog</a>
+            <a href="">
+                <img class="img-social" src="img/facebook-logo.png" alt="">
+            </a>
+            <a href="">
+                <img class="img-social" src="img/google-plus.png" alt="">
+            </a>
+        </div>
+    </nav> -->
+    <nav class="nav-large-not-home nav-small-menu">
+        <div>
+            <!-- <a routerLink="/home">About</a> -->
+            <a routerLink="/resume">Resume</a>
+            <a routerLink="/portfolio">Portfolio</a>
+            <!-- <a>
+                    <img class="img-social" src="../../../assets/images/facebook_logo_blue.png.png" alt="">
+                  </a>
+                  <a>
+                    <img class="img-social" src="../../../assets/images/google-plus-circular-button.png" alt="">
+                  </a> -->
+        </div>
+    </nav>
+
     <section class="container-wrapper home-container">
-        <div class="">
+        <div class="inner-container">
             <div class="row">
                 <div class="col-d-12 col-m-11 hm-text-4 hm-text-4-mobile">
-                    <p>DEVELOPMENT.</p>
-                    <p>DESIGN.</p>
-                    <p>MARKETING.</p>
+                    <p>Software Developer, Machine Learning and Computer Vision Engineer</p>
+                    <!-- <p>DESIGN.</p> -->
+                    <!-- <p>MARKETING.</p> -->
                     <div class="hm-text-regular-1 hm-text-regular-1-small">
-                        <p>We build products and help companies grow</p>
+                        <p>I work in IT for 7 years and enjoing it, welcome to my profile website</p>
                     </div>
+                    <!-- <img class="profile-img" src="img/profile.jpg" alt=""> -->
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-d-12 col-m-8 hm-text-1 hm-text-regular-1-small ">
                     <p class="hm-line"><span>Portfolio</span></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class=" home-services">
         <div class="row hs-center">
             <div class="col-d-11 col-m-12">
-                <p class="hm-line-color-black"><span>OUR SERVICES</span></p>
+                <p class="hm-line-color-black"><span>MY EXPERTISE</span></p>
             </div>
         </div>
         <div class="row hs-center">
@@ -57,35 +103,31 @@
                 <div class="row">
                     <div class="col-d-3 col-m-12">
                         <img class="service-icon" src="img/app.png" alt="">
-                        <p class="service-title">Complex Web Development</p>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                            Lorem Ipsum has been the
-                            industry's </p>
+                        <p class="service-title">Back-End Development</p>
+                        <p class="service-description">All cycles of back end development, distributed systems and cloud
+                            computing</p>
                     </div>
                     <div class="col-d-3 col-m-12">
                         <img class="service-icon" src="img/smartphone.png" alt="">
-                        <p class="service-title">Mobile Development</p>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                            Lorem Ipsum has been the
-                            industry's </p>
+                        <p class="service-title">Internet Of Things</p>
+                        <p class="service-description">Using edge device in industrial and end-two-end use cases.
+                            Experienced with Nvidia TX2 and Intel Movidius
+                        </p>
                     </div>
                     <div class="col-d-3 col-m-12">
                         <img class="service-icon" src="img/feature.png" alt="">
-                        <p class="service-title">Software Design</p>
-                        <p class="service-description"> Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                            Lorem Ipsum has been the
-                            industry's </p>
+                        <p class="service-title">Computer Vision</p>
+                        <p class="service-description">Utilized stereo cameras and structure light
+                            in Smart City projects and Robotics. Have experience with lidars
+                            and visual odometry.
+                        </p>
                     </div>
                     <div class="col-d-3 col-m-12">
                         <img class="service-icon" src="img/artificial-intelligence.png" alt="">
                         <p class="service-title">AI, neural networks</p>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                            Lorem Ipsum has been the
-                            industry's </p>
+                        <p class="service-description">Development of neural networks models,
+                            fine tuning and optimization. Collection of the dataset.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -172,16 +214,32 @@
                         <div class="row">
                             <p class="hm-line-color-black"><span>PORTFOLIO</span></p>
                             <div class="img-container">
-                                <img class="fit-img" src="img/BIG-2.png" alt="">
+
+                                <img class="fit-img" src="img/cctv_image.jpeg" alt="">
                                 <div class="overlay">
                                     <p>
                                         <a href="#">
-                                            <p class="hov-title">VC.RU</p>
+                                            <p class="hov-title">Smart City Solutions</p>
                                             <div class="hov-text">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the
-                                                industry's
+                                                The goal of the project wast to identify
+                                                car plates and numbers In Hong Kong. Using
+                                                edge devices Nvidia TX2 and neural network models
+                                            </div>
+                                            <div class="hm-line-color-white"><span>More</span></div>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="img-container">
+
+                                <img class="fit-img" src="img/snow_makers.jpg" alt="">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#">
+                                            <p class="hov-title">Snow Machine System</p>
+                                            <div class="hov-text">
+                                                Implemented backend system for control snow machines.
+                                                The tech stack used Java, MySQL, Hibernate, SPringMVC
                                             </div>
                                             <div class="hm-line-color-white"><span>More</span></div>
                                         </a>
@@ -193,16 +251,14 @@
                     <div class="col-d-4 col-m-12 hs-padding">
                         <div class="row">
                             <div class="img-container">
-                                <img class="fit-img" src="img/whiteiphone.png" alt="">
+                                <img class="fit-img" src="img/accident_detection.jpg" alt="">
                                 <div class="overlay">
                                     <p>
                                         <a href="#">
-                                            <p class="hov-title">VC.RU</p>
+                                            <p class="hov-title">Car Accident Detection</p>
                                             <div class="hov-text">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the
-                                                industry's
+                                                The aim was to create a neural network model
+                                                to detect car accident detection
                                             </div>
                                             <div class="hm-line-color-white"><span>More</span></div>
                                         </a>
@@ -211,16 +267,15 @@
                             </div>
                             <div class="row"></div>
                             <div class="img-container ">
-                                <img class="fit-img " src="img/medlineplus_redesign_fig1.png" alt="">
+                                <img class="fit-img " src="img/workerbase.jpg" alt="">
                                 <div class="overlay">
                                     <p>
-                                        <a href="#">
-                                            <p class="hov-title">VC.RU</p>
+                                        <a href="https://workerbase.com">
+                                            <p class="hov-title">WorkerBase Smart Watch</p>
                                             <div class="hov-text">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the
-                                                industry's
+                                                In this project we've develope applications for the smart
+                                                watch Android based and Ionic. Also implemented admin
+                                                portal using TypeScript
                                             </div>
                                             <div class="hm-line-color-white"><span>More</span></div>
                                         </a>
@@ -232,23 +287,22 @@
                     <div class="col-d-4 col-m-12 hs-padding">
                         <div class="row">
                             <div class="img-container">
-                                <img class="fit-img" src="img/website-mockup.png" alt="">
+                                <img class="fit-img" src="img/xiaoyun.jpg" alt="">
                                 <div class="overlay">
                                     <p>
-                                        <a href="#">
-                                            <p class="hov-title">VC.RU</p>
+                                        <a href="https://www.xiaoyun.com">
+                                            <p class="hov-title">XiaoYun Wifi Platform</p>
                                             <div class="hov-text">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the
-                                                industry's
+                                                Platform for the ads injection. Using Node.js,Java implemented back end
+                                                microservices and disctibuted database.
                                             </div>
-                                            <div class="hm-line-color-white"><span>More</span></div>
+                                            <div style="padding-top: 30px;" class="hm-line-color-white">
+                                                <span>More</span></div>
                                         </a>
                                     </p>
                                 </div>
                             </div>
-                            <p class="hm-line-color-blue"><span>More</span></p>
+                            <!-- <p class="hm-line-color-blue"><span>More</span></p> -->
                         </div>
                     </div>
                 </div>
@@ -263,14 +317,16 @@
                         <div class="basic-card">
                             <div class="row basic-card-container">
                                 <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue font-bold">Mobile App Development</div>
+                                    <div class="color-blue font-bold">Siemens, China Beijing </div>
+                                    <div class="color-blue font-bold">2016.08-Present</div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
+                                    <div class="client-description">
+                                        Full Stack Software Developer in the area of Machine Learning and Computer
+                                        Vision. Work in the area of the Smart Cities solution related to the perception
+                                        topic. Responsible for the neural network models implementation, algorithm
+                                        optimization research and development.
+                                    </div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
                                     <p class="hm-line-color-blue"><span>Learn more</span></p>
@@ -279,7 +335,7 @@
                         </div>
                     </div>
                     <div class="col-d-8 col-m-12">
-                        <p class="hm-line-color-black-reverse"><span>SOLUTIONS AND SERVICES</span></p>
+                        <p class="hm-line-color-black-reverse"><span>WORKING EXPERIENCE</span></p>
                     </div>
                 </div>
             </div>
@@ -291,33 +347,14 @@
                         <div class="basic-card">
                             <div class="row basic-card-container">
                                 <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue font-bold">Mobile App Development</div>
+                                    <div class="color-blue font-bold">Goyoo Networks, Beijing China</div>
+                                    <div class="color-blue font-bold">02.2015-07.2016</div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
-                                </div>
-                                <div class="col-d-12 col-m-12">
-                                    <p class="hm-line-color-blue"><span>Learn more</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-d-4 col-m-12">
-                        <div class="basic-card">
-                            <div class="row basic-card-container">
-                                <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue font-bold">Mobile App Development</div>
-                                </div>
-                                <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
+                                    <div class="client-description">
+                                        NodeJS Software Developer in the area of the Distributed Systems and Big Data.
+                                        Responsible for the backend implementation and micro- service development.
+                                    </div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
                                     <p class="hm-line-color-blue"><span>Learn more</span></p>
@@ -329,14 +366,34 @@
                         <div class="basic-card">
                             <div class="row basic-card-container">
                                 <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue font-bold">Mobile App Development</div>
+                                    <div class="color-blue font-bold">Actissim, Beijing China</div>
+                                    <div class="color-blue font-bold">11.2013-01.2015</div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
+                                    <div class="client-description">
+                                        Software Engineer in the start-up company. Developing a control system for the
+                                        snow machines in ski resort.
+                                    </div>
+                                </div>
+                                <div class="col-d-12 col-m-12">
+                                    <p class="hm-line-color-blue"><span>Learn more</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-d-4 col-m-12">
+                        <div class="basic-card">
+                            <div class="row basic-card-container">
+                                <div class="col-d-10 col-m-12 card-name">
+                                    <div class="color-blue font-bold">Telesense, Kharkiv Ukraine</div>
+                                    <div class="color-blue font-bold">10.2011-06.2013</div>
+                                </div>
+                                <div class="col-d-12 col-m-12">
+                                    <div class="client-description">
+                                        Software Developer in the middle size company. Worked with German customer to
+                                        deliver a Smart House app to manage consumption of the gas, water and
+                                        electricity.
+                                    </div>
                                 </div>
                                 <div class="col-d-12 col-m-12">
                                     <p class="hm-line-color-blue"><span>Learn more</span></p>
@@ -351,9 +408,9 @@
     <div class="footer-content">
         <div class="row">
             <div class="col-d-4 col-m-12">
-                <span class="">
+                <!-- <span class="">
                     <img class="img-logo img-logo-small" src="img/logo.png" alt="">
-                </span>
+                </span> -->
             </div>
             <div class="col-d-4 col-m-12 ">
                 <div class="hm-line"><span>CONTACT</span></div>
