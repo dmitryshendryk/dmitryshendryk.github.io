@@ -61,9 +61,9 @@
     <nav class="nav-large-not-home nav-small-menu">
         <div>
             <!-- <a routerLink="/home">About</a> -->
-            <a routerLink="/resume">Resume</a>
-            <a routerLink="/portfolio">Portfolio</a>
-            <a routerLink="/portfolio">Contact</a>
+            <a class="marker" id="click-experience" >Resume</a>
+            <a class="marker" id="click-portfolio">Portfolio</a>
+            <a class="marker" id="click-contact" >Contact</a>
             <!-- <a>
                     <img class="img-social" src="../../../assets/images/facebook_logo_blue.png.png" alt="">
                   </a>
@@ -184,86 +184,13 @@
             </div>
         </div>
     </section>
-    <!-- <section class="home-services">
-        <div class="row hs-center">
-            <div class="col-d-11 col-m-12">
-                <p class="hm-line-color-black-reverse"><span>OUR CLIENTS</span></p>
-            </div>
-        </div>
-        <div class="row hs-center">
-            <div class="col-d-11 col-m-12">
-                <div class="row">
-                    <div class="col-d-4 col-m-12">
-                        <div class="basic-card">
-                            <div class="row basic-card-container">
-                                <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue">Name</div>
-                                    <div>Manager</div>
-                                </div>
-                                <div class="col-t-1 col-d-11 col-m-12">
-                                    <div>VC.RU</div>
-                                </div>
-                                <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-d-4 col-m-12">
-                        <div class="basic-card">
-                            <div class="row basic-card-container">
-                                <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue">Name</div>
-                                    <div>Manager</div>
-                                </div>
-                                <div class="col-t-1 col-d-11 col-m-12">
-                                    <div>VC.RU</div>
-                                </div>
-                                <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-d-4 col-m-12">
-                        <div class="basic-card">
-                            <div class="row basic-card-container">
-                                <div class="col-d-10 col-m-12 card-name">
-                                    <div class="color-blue">Name</div>
-                                    <div>Manager</div>
-                                </div>
-                                <div class="col-t-1 col-d-11 col-m-12">
-                                    <div>VC.RU</div>
-                                </div>
-                                <div class="col-d-12 col-m-12">
-                                    <div class="client-description">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry.
-                                        Lorem Ipsum has been the
-                                        industry's</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section class=" home-services">
         <div class="row hs-center">
             <div class="col-d-11 col-m-12">
                 <div class="row">
                     <div class="col-d-4 col-m-12 hs-padding">
                         <div class="row">
-                            <p class="hm-line-color-black"><span>PORTFOLIO</span></p>
+                            <p id="portfolio" class="hm-line-color-black"><span>PORTFOLIO</span></p>
                             <div class="img-container">
 
                                 <img class="fit-img" src="img/cctv_image.jpeg" alt="">
@@ -385,7 +312,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-d-8 col-m-12">
+                    <div id="experience" class="col-d-8 col-m-12">
                         <p class="hm-line-color-black-reverse"><span>WORKING EXPERIENCE</span></p>
                     </div>
                 </div>
@@ -461,13 +388,13 @@
         <div class="row">
 
             <div class="col-d-4 col-m-12 ">
-                <div class="hm-line"><span>CONTACT</span></div>
+                <div id="contact" class="hm-line"><span>CONTACT</span></div>
                 <ul class=" contact-list">
                     <li><a>dmitryshendryk@gmail.com</a></li>
                     <li><a>+8618810922504</a></li>
                 </ul>
             </div>
-            <div class="col-d-4  col-m-12" ></div>
+            <div class="col-d-4  col-m-12"></div>
             <div class="col-d-4  col-m-12">
                 <div class=" hm-line"><span>NETWORKS</span></div>
                 <div class="row">
@@ -490,6 +417,26 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $("#click-portfolio").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#portfolio").offset().top
+                }, 1000);
+            });
+            $("#click-experience").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#experience").offset().top
+                }, 1000);
+            });
+            $("#click-contact").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#contact").offset().top
+                }, 1000);
+            });
+        });
+    </script>
 </body>
-<script></script>
+
 </html>
